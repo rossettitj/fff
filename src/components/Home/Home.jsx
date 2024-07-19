@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import {Link, Outlet} from "react-router-dom"
-import ronaldo from '/images/ronaldo2.webp'
+import ronaldo from 'public/images/ronaldo2.webp'
 import messi from '/images/messi.avif'
 
 
