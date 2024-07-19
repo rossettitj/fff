@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
 import {Link, Outlet} from "react-router-dom"
-import ronaldo from './ronaldo2.webp'
-import messi from './messi.avif'
+import ronaldo from '/images/ronaldo2.webp'
+import messi from '/images/dob.avif'
 
 
 
