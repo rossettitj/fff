@@ -1,11 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import axios from "axios"
-import db from '../test'
-console.log(db)
+
 
 export default function Shop() {
-  const [category, setCategory] = useState(db);
+  const [category, setCategory] = useState(test);
   const handleBtns = (e) => {
   let word=e.target.value;
    
