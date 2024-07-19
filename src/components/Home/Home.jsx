@@ -1,16 +1,16 @@
 import React from 'react'
 import './Home.css'
 import {Link, Outlet} from "react-router-dom"
-import ronaldo from '../../images/ronaldo2.webp'
-import messi from '../../images/messi.avif'
-import rapunzel from '../../images/rapunzel.avif'
-import mirabel from '../../images/mirabel.avif'
-import up from '../../images/up.webp'
+import ronaldo from '/images/ronaldo2.webp'
+import messi from '/images/messi.avif'
+import rapunzel from '/../images/rapunzel.avif'
+import mirabel from '../images/mirabel.avif'
+import up from 'images/up.webp'
 import jasmine from '../../images/jasmine.avif'
-import harry from '../../images/harry.avif'
-import hagrid from '../../images/hagrid.avif'
-import voldemort from '../../images/voldemort.avif'
-import dobby from '../../images/dob.avif'
+import harry from '/images/harry.avif'
+import hagrid from '/images/hagrid.avif'
+import voldemort from '/images/voldemort.avif'
+import dobby from '/images/dob.avif'
 
 
 
