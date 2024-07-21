@@ -1,7 +1,8 @@
 import React from 'react'
 import './Home.css'
 import {Link, Outlet} from "react-router-dom"
-import ronaldo from '../../images/20200630_181603.jpg'
+import ronaldo from '../../images/ronaldo2.webp'
+import messi from '../../images/messi.avif'
 
 
 
@@ -54,12 +55,6 @@ export default function Home() {
                 Shop the Disney
                 Collection</h3>
         </div>
-        <div className="disneycont">
-            <img src={rapunzel} alt="crochet rapunzel" className="disney"/>
-            <img src={jasmine} alt="crochet jasmine" className="disney"/>
-            <img src={up} alt="crochet carl fredrickson" className="disney"/>
-            <img src={mirabel} alt="crochet mirabel" className="disney"/>
-        </div>
     </div>
 
 
@@ -70,12 +65,7 @@ export default function Home() {
                 Shop the Harry Potter
                 Collection</h3>
         </div>
-        <div className="disneycont">
-            <img src={hagrid} alt="crochet hagrid" className="disney"/>
-            <img src={harry} alt="crochet harry potter" className="disney"/>
-            <img src={voldemort} alt="crochet voldemort" className="disney"/>
-            <img src={dobby} alt="crochet dobby the elf" className="disney"/>
-        </div>
+
     </div>
 
     <div id="bgContainer">
